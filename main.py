@@ -40,6 +40,6 @@ for options in config_array:
         if options["qrcode"] == "0":
             pass
 
-        with open("myfile"+str(options["color"])+".txt", "w") as file1:
+        with open("./build_files/myfile"+str(options["color"])+".txt", "w") as file1:
             file1.write(phrase_changed)
             file1.close()
