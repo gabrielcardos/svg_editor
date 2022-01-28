@@ -1,0 +1,407 @@
+[
+    {
+        "description": "dark red",
+        "activated": "0",
+        "code": "1",
+        "phrase": "dark red",
+        "color": "#8B0000",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "brown",
+        "activated": "0",
+        "code": "2",
+        "phrase": "brown",
+        "color": "#A52A2A",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "firebrick",
+        "activated": "0",
+        "code": "3",
+        "phrase": "firebrick",
+        "color": "#B22222",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "crimson",
+        "activated": "0",
+        "code": "4",
+        "phrase": "crimson",
+        "color": "#DC143C",
+        "qrcode": "M0 0h7v1H0zM8 0h3v1H8zM12 0h3v1H12zM16 0h1v1H16zM20 0h1v1H20zM22,0 h7v1H22zM0 1h1v1H0zM6 1h1v1H6zM8 1h3v1H8zM13 1h1v1H13zM16 1h4v1H16zM22 1h1v1H22zM28,1 h1v1H28zM0 2h1v1H0zM2 2h3v1H2zM6 2h1v1H6zM8 2h1v1H8zM10 2h2v1H10zM17 2h1v1H17zM22 2h1v1H22zM24 2h3v1H24zM28,2 h1v1H28zM0 3h1v1H0zM2 3h3v1H2zM6 3h1v1H6zM8 3h2v1H8zM11 3h1v1H11zM13 3h3v1H13zM17 3h3v1H17zM22 3h1v1H22zM24 3h3v1H24zM28,3 h1v1H28zM0 4h1v1H0zM2 4h3v1H2zM6 4h1v1H6zM14 4h2v1H14zM18 4h1v1H18zM22 4h1v1H22zM24 4h3v1H24zM28,4 h1v1H28zM0 5h1v1H0zM6 5h1v1H6zM8 5h1v1H8zM11 5h4v1H11zM19 5h2v1H19zM22 5h1v1H22zM28,5 h1v1H28zM0 6h7v1H0zM8 6h1v1H8zM10 6h1v1H10zM12 6h1v1H12zM14 6h1v1H14zM16 6h1v1H16zM18 6h1v1H18zM20 6h1v1H20zM22,6 h7v1H22zM9 7h1v1H9zM12 7h1v1H12zM14 7h1v1H14zM17 7h1v1H17zM19 7h2v1H19zM0 8h2v1H0zM4 8h3v1H4zM11 8h1v1H11zM16 8h1v1H16zM19 8h2v1H19zM23 8h1v1H23zM25,8 h4v1H25zM4 9h2v1H4zM9 9h2v1H9zM12 9h2v1H12zM15 9h4v1H15zM21 9h1v1H21zM23 9h4v1H23zM28,9 h1v1H28zM0 10h2v1H0zM3 10h1v1H3zM5 10h4v1H5zM11 10h5v1H11zM17 10h2v1H17zM20 10h7v1H20zM28,10 h1v1H28zM4 11h2v1H4zM7 11h2v1H7zM10 11h2v1H10zM15 11h1v1H15zM17 11h2v1H17zM20 11h6v1H20zM27,11 h2v1H27zM0 12h1v1H0zM4 12h1v1H4zM6 12h2v1H6zM10 12h1v1H10zM12 12h1v1H12zM15 12h1v1H15zM19 12h2v1H19zM23 12h1v1H23zM25 12h1v1H25zM27 12h1v1H27zM0 13h2v1H0zM3 13h2v1H3zM8 13h2v1H8zM13 13h4v1H13zM21 13h4v1H21zM27,13 h2v1H27zM1 14h1v1H1zM5 14h2v1H5zM8 14h1v1H8zM10 14h1v1H10zM13 14h5v1H13zM20 14h3v1H20zM25 14h2v1H25zM28,14 h1v1H28zM1 15h1v1H1zM3 15h1v1H3zM7 15h1v1H7zM12 15h1v1H12zM15 15h1v1H15zM17 15h1v1H17zM19 15h2v1H19zM22 15h2v1H22zM25 15h1v1H25zM28,15 h1v1H28zM0 16h1v1H0zM3 16h1v1H3zM6 16h1v1H6zM11 16h1v1H11zM13 16h1v1H13zM15 16h1v1H15zM19 16h3v1H19zM23 16h1v1H23zM25 16h1v1H25zM28,16 h1v1H28zM0 17h3v1H0zM7 17h4v1H7zM12 17h1v1H12zM14 17h1v1H14zM16 17h1v1H16zM19 17h1v1H19zM22 17h1v1H22zM24 17h2v1H24zM28,17 h1v1H28zM3 18h1v1H3zM6 18h2v1H6zM11 18h5v1H11zM17 18h2v1H17zM20 18h1v1H20zM22 18h1v1H22zM25 18h1v1H25zM28,18 h1v1H28zM3 19h3v1H3zM8 19h1v1H8zM10 19h2v1H10zM16 19h2v1H16zM22 19h2v1H22zM25 19h1v1H25zM27 19h1v1H27zM0 20h7v1H0zM10 20h1v1H10zM12 20h1v1H12zM16 20h2v1H16zM19 20h7v1H19zM8 21h1v1H8zM10 21h1v1H10zM13 21h2v1H13zM16 21h1v1H16zM18 21h1v1H18zM20 21h1v1H20zM24 21h1v1H24zM28,21 h1v1H28zM0 22h7v1H0zM9 22h1v1H9zM15 22h1v1H15zM18 22h1v1H18zM20 22h1v1H20zM22 22h1v1H22zM24 22h1v1H24zM26 22h1v1H26zM28,22 h1v1H28zM0 23h1v1H0zM6 23h1v1H6zM8 23h1v1H8zM12 23h1v1H12zM14 23h2v1H14zM17 23h1v1H17zM19 23h2v1H19zM24 23h1v1H24zM27 23h1v1H27zM0 24h1v1H0zM2 24h3v1H2zM6 24h1v1H6zM8 24h4v1H8zM13 24h2v1H13zM16 24h1v1H16zM19 24h6v1H19zM28,24 h1v1H28zM0 25h1v1H0zM2 25h3v1H2zM6 25h1v1H6zM9 25h2v1H9zM12 25h1v1H12zM14 25h2v1H14zM20 25h2v1H20zM24 25h2v1H24zM28,25 h1v1H28zM0 26h1v1H0zM2 26h3v1H2zM6 26h1v1H6zM10 26h10v1H10zM22 26h1v1H22zM26,26 h3v1H26zM0 27h1v1H0zM6 27h1v1H6zM8 27h2v1H8zM11 27h1v1H11zM13 27h1v1H13zM15 27h1v1H15zM17 27h1v1H17zM19 27h4v1H19zM27,27 h2v1H27zM0 28h7v1H0zM8 28h3v1H8zM12 28h2v1H12zM15 28h1v1H15zM19 28h2v1H19zM24 28h1v1H24zM27 28h1v1H27z",
+        "": ""
+    },
+    {
+        "description": "red",
+        "activated": "0",
+        "code": "5",
+        "phrase": "red",
+        "color": "#FF0000",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "tomato",
+        "activated": "0",
+        "code": "6",
+        "phrase": "tomato",
+        "color": "#FF6347",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "coral",
+        "activated": "0",
+        "code": "7",
+        "phrase": "coral",
+        "color": "#FF7F50",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "indian red",
+        "activated": "0",
+        "code": "8",
+        "phrase": "indian red",
+        "color": "#CD5C5C",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "light coral",
+        "activated": "0",
+        "code": "9",
+        "phrase": "light coral",
+        "color": "#F08080",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "dark salmon",
+        "activated": "0",
+        "code": "10",
+        "phrase": "dark salmon",
+        "color": "#E9967A",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "salmon",
+        "activated": "0",
+        "code": "11",
+        "phrase": "salmon",
+        "color": "#FA8072",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "light salmon",
+        "activated": "0",
+        "code": "12",
+        "phrase": "light salmon",
+        "color": "#FFA07A",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "orange red",
+        "activated": "0",
+        "code": "13",
+        "phrase": "orange red",
+        "color": "#FF4500",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "dark orange",
+        "activated": "0",
+        "code": "14",
+        "phrase": "dark orange",
+        "color": "#FF8C00",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "orange",
+        "activated": "0",
+        "code": "15",
+        "phrase": "orange",
+        "color": "#FFA500",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "gold",
+        "activated": "1",
+        "code": "16",
+        "phrase": "gold",
+        "color": "#FFD700",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "dark golden rod",
+        "activated": "1",
+        "code": "17",
+        "phrase": "dark golden rod",
+        "color": "#B8860B",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "golden rod",
+        "activated": "1",
+        "code": "18",
+        "phrase": "golden rod",
+        "color": "#DAA520",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "pale golden rod",
+        "activated": "1",
+        "code": "19",
+        "phrase": "pale golden rod",
+        "color": "#EEE8AA",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "dark khaki",
+        "activated": "1",
+        "code": "20",
+        "phrase": "dark khaki",
+        "color": "#BDB76B",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "khaki",
+        "activated": "1",
+        "code": "21",
+        "phrase": "khaki",
+        "color": "#F0E68C",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "olive",
+        "activated": "1",
+        "code": "22",
+        "phrase": "olive",
+        "color": "#808000",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "yellow",
+        "activated": "1",
+        "code": "23",
+        "phrase": "yellow",
+        "color": "#FFFF00",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "yellow green",
+        "activated": "1",
+        "code": "24",
+        "phrase": "yellow green",
+        "color": "#9ACD32",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "dark olive green",
+        "activated": "1",
+        "code": "25",
+        "phrase": "dark olive green",
+        "color": "#556B2F",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "olive drab",
+        "activated": "1",
+        "code": "26",
+        "phrase": "olive drab",
+        "color": "#6B8E23",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "lawn green",
+        "activated": "1",
+        "code": "27",
+        "phrase": "lawn green",
+        "color": "#7CFC00",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "chart reuse",
+        "activated": "1",
+        "code": "28",
+        "phrase": "chart reuse",
+        "color": "#7FFF00",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "green yellow",
+        "activated": "1",
+        "code": "29",
+        "phrase": "green yellow",
+        "color": "#ADFF2F",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "dark green",
+        "activated": "1",
+        "code": "30",
+        "phrase": "dark green",
+        "color": "#006400",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "green",
+        "activated": "1",
+        "code": "31",
+        "phrase": "green",
+        "color": "#008000",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "forest green",
+        "activated": "1",
+        "code": "32",
+        "phrase": "forest green",
+        "color": "#228B22",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "lime",
+        "activated": "1",
+        "code": "33",
+        "phrase": "lime",
+        "color": "#00FF00",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "lime green",
+        "activated": "1",
+        "code": "34",
+        "phrase": "lime green",
+        "color": "#32CD32",
+        "qrcode": "0",
+        "": ""
+    },
+    {
+        "description": "",
+        "activated": "",
+        "code": "",
+        "phrase": "",
+        "color": "",
+        "qrcode": "",
+        "": ""
+    },
+    {
+        "description": "",
+        "activated": "",
+        "code": "",
+        "phrase": "",
+        "color": "",
+        "qrcode": "",
+        "": ""
+    },
+    {
+        "description": "",
+        "activated": "",
+        "code": "",
+        "phrase": "",
+        "color": "",
+        "qrcode": "",
+        "": ""
+    },
+    {
+        "description": "",
+        "activated": "",
+        "code": "",
+        "phrase": "",
+        "color": "",
+        "qrcode": "",
+        "": ""
+    },
+    {
+        "description": "",
+        "activated": "",
+        "code": "",
+        "phrase": "",
+        "color": "",
+        "qrcode": "",
+        "": ""
+    },
+    {
+        "description": "",
+        "activated": "",
+        "code": "",
+        "phrase": "",
+        "color": "",
+        "qrcode": "",
+        "": ""
+    },
+    {
+        "description": "",
+        "activated": "",
+        "code": "",
+        "phrase": "",
+        "color": "",
+        "qrcode": "",
+        "": ""
+    },
+    {
+        "description": "",
+        "activated": "",
+        "code": "",
+        "phrase": "",
+        "color": "",
+        "qrcode": "",
+        "": ""
+    },
+    {
+        "description": "",
+        "activated": "",
+        "code": "",
+        "phrase": "",
+        "color": "",
+        "qrcode": "",
+        "": ""
+    },
+    {
+        "description": "",
+        "activated": "",
+        "code": "",
+        "phrase": "",
+        "color": "",
+        "qrcode": "",
+        "": ""
+    },
+    {
+        "description": "",
+        "activated": "",
+        "code": "",
+        "phrase": "",
+        "color": "",
+        "qrcode": "",
+        "": ""
+    }
+]
