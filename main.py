@@ -36,10 +36,19 @@ for options in config_array:
     if options['activated'] == "1":
         color_changed = template.replace('#bc2a66', str(options["color"]))
         phrase_changed = color_changed.replace('strawberry', str(options["phrase"]))
+        code_changed = phrase_changed.replace('00-0001', str(options["code"].zfill(4)))
 
-        if options["qrcode"] == "0":
-            pass
+        #if QR code is identified, it adds the code
+        if options["qrcode"] != "0":
+            qr_code_added = code_changed.replace('d="000"',
+                                                  ' d="'+str(options["qrcode"])+'" ')
+            with open("./build_files/Panetone" + str(options["color"]) + ".svg", "w") as file1:
+                file1.write(qr_code_added)
+                file1.close()
 
-        with open("./build_files/myfile"+str(options["color"])+".txt", "w") as file1:
-            file1.write(phrase_changed)
-            file1.close()
+        else:
+            remove_text = code_changed.replace('fill="#000000" x="305"', 'fill="#FFFFFF" x="305"')
+            #if QR code is not identified, it removes the letters
+            with open("./build_files/Panetone"+str(options["color"])+".svg", "w") as file1:
+                file1.write(remove_text)
+                file1.close()

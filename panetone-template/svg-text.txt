@@ -65,8 +65,9 @@
    </g>
   </g>
   <path id="svg_55" fill="#000000" x="266.89243" y="389.98242" width="63.80774" height="63.80774"/>
-  <text fill="#000000" x="305.51286" y="411.28213" id="svg_56" stroke-width="0" font-size="8" font-family="HelveticaNeue-Light, Helvetica Neue" text-anchor="start" xml:space="preserve" font-weight="bold">Non</text>
-  <text fill="#000000" x="305.00004" y="429.74356" id="svg_57" stroke-width="0" font-size="8" font-family="HelveticaNeue-Light, Helvetica Neue" text-anchor="start" xml:space="preserve" font-weight="bold">Token</text>
-  <text fill="#000000" x="305.51286" y="420.51278" id="svg_58" stroke-width="0" font-size="8" font-family="HelveticaNeue-Light, Helvetica Neue" text-anchor="start" xml:space="preserve" font-weight="bold">Fungible</text>
+   <svg shape-rendering="crispEdges" x="305.89243" y="436.98242" width="63.80774" height="63.80774" class="qrcode"><path fill="#FFFFFF" d="M0,0 h29v29H0z"></path><path fill="#000000" d="000"></path></svg>
+  <text fill="#000000" x="305" y="411.28213" id="svg_56" stroke-width="0" font-size="8" font-family="HelveticaNeue-Light, Helvetica Neue" text-anchor="start" xml:space="preserve" font-weight="bold">Non</text>
+  <text fill="#000000" x="305" y="429.74356" id="svg_57" stroke-width="0" font-size="8" font-family="HelveticaNeue-Light, Helvetica Neue" text-anchor="start" xml:space="preserve" font-weight="bold">Token</text>
+  <text fill="#000000" x="305" y="420.51278" id="svg_58" stroke-width="0" font-size="8" font-family="HelveticaNeue-Light, Helvetica Neue" text-anchor="start" xml:space="preserve" font-weight="bold">Fungible</text>
  </g>
 </svg>

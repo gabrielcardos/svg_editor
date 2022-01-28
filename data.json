@@ -28,7 +28,7 @@
     },
     {
         "description": "crimson",
-        "activated": "0",
+        "activated": "1",
         "code": "4",
         "phrase": "crimson",
         "color": "#DC143C",
@@ -67,7 +67,7 @@
         "activated": "0",
         "code": "8",
         "phrase": "indian red",
-        "color": "#CD5C5C",
+        "color": "#CsD5C5C",
         "qrcode": "0",
         "": ""
     },
