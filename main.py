@@ -40,14 +40,16 @@ for options in config_array:
 
         #if QR code is identified, it adds the code
         if options["qrcode"] != "0":
-            qr_code_added = code_changed.replace('d="000"',
-                                                  ' d="'+str(options["qrcode"])+'" ')
+            qr_code_added = code_changed.replace('fill="#2B2B2B" d=""',
+                                                  'fill="#2B2B2B" d="'+str(options["qrcode"])+'" ')
+
+
             with open("./build_files/Panetone" + str(options["color"]) + ".svg", "w") as file1:
                 file1.write(qr_code_added)
                 file1.close()
 
         else:
-            remove_text = code_changed.replace('fill="#000000" x="305"', 'fill="#FFFFFF" x="305"')
+            remove_text = code_changed.replace('#191919', '#FFFFFF')
             #if QR code is not identified, it removes the letters
             with open("./build_files/Panetone"+str(options["color"])+".svg", "w") as file1:
                 file1.write(remove_text)
