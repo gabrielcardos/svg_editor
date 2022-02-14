@@ -6,8 +6,8 @@ from PIL import Image, ImageDraw, ImageFont
 Image.MAX_IMAGE_PIXELS = 692136579
 
 def create_image_tobase(text):
-    img = Image.new('RGB', (640, 360), color=(255, 255, 255))
-    fnt = ImageFont.truetype('/Library/Fonts/Helvetica Neue UltraLight.ttf', 280)
+    img = Image.new('RGB', (940, 360), color=(255, 255, 255))
+    fnt = ImageFont.truetype('/Library/Fonts/Nimbus-Sans-D-OT-Light_32752.ttf', 280)
     d = ImageDraw.Draw(img)
     d.text((15, 15), str(text), font=fnt, fill=(0, 0, 0))
     img.save('pil_text_font.png')
@@ -57,6 +57,7 @@ for options in config_array:
         phrase_changed = color_changed.replace('strawberry', "")
         code_changed = phrase_changed.replace('00-0001', "")
         code_changed = code_changed.replace('codebase',str(create_image_tobase(str(options["code"].zfill(4)))))
+        code_changed = code_changed.replace('phrase', str(create_image_tobase(str(options["phrase"]))))
 
         #if QR code is identified, it adds the code
         if options["qrcode"] != "0":
