@@ -1,5 +1,22 @@
+import base64
 import json
 import csv
+from PIL import Image, ImageDraw, ImageFont
+
+Image.MAX_IMAGE_PIXELS = 692136579
+
+def create_image_tobase(text):
+    img = Image.new('RGB', (640, 360), color=(255, 255, 255))
+    fnt = ImageFont.truetype('/Library/Fonts/Helvetica Neue UltraLight.ttf', 280)
+    d = ImageDraw.Draw(img)
+    d.text((15, 15), str(text), font=fnt, fill=(0, 0, 0))
+    img.save('pil_text_font.png')
+    image = open('pil_text_font.png', 'rb')
+    image_read = image.read()
+    image_encode = base64.b64encode(image_read)
+    image_encode = str(image_encode).replace("b'","")
+    image_encode = str(image_encode).replace("'", "")
+    return image_encode
 
 def csv_to_json(csvFilePath, jsonFilePath):
     jsonArray = []
@@ -35,18 +52,20 @@ print(config_array)
 for options in config_array:
     if options['activated'] == "1":
         color_changed = template.replace('#bc2a66', str(options["color"]))
-        phrase_changed = color_changed.replace('strawberry', str(options["phrase"]))
-        code_changed = phrase_changed.replace('00-0001', str(options["code"].zfill(4)))
+        #phrase_changed = color_changed.replace('strawberry', str(options["phrase"]))
+        #code_changed = phrase_changed.replace('00-0001', str(options["code"].zfill(4)))
+        phrase_changed = color_changed.replace('strawberry', "")
+        code_changed = phrase_changed.replace('00-0001', "")
+        code_changed = code_changed.replace('codebase',str(create_image_tobase(str(options["code"].zfill(4)))))
 
         #if QR code is identified, it adds the code
         if options["qrcode"] != "0":
             qr_code_added = code_changed.replace('fill="#2B2B2B" d=""',
                                                   'fill="#2B2B2B" d="'+str(options["qrcode"])+'" ')
-
-
-            with open("./build_files/Panetone" + str(options["color"]) + ".svg", "w") as file1:
-                file1.write(qr_code_added)
-                file1.close()
+            print(create_image_tobase(qr_code_added))
+            with open("./build_files/Panetone"+str(options["color"])+".svg", "w") as file1:
+                 file1.write(qr_code_added)
+                 file1.close()
 
         else:
             remove_text = code_changed.replace('#191919', '#FFFFFF')
