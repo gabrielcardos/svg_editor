@@ -5,8 +5,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 Image.MAX_IMAGE_PIXELS = 692136579
 
-def create_image_tobase(text):
-    img = Image.new('RGB', (940, 360), color=(255, 255, 255))
+def create_image_tobase(text,size):
+    img = Image.new('RGB', (size, 360), color=(255, 255, 255))
     fnt = ImageFont.truetype('/Library/Fonts/Nimbus-Sans-D-OT-Light_32752.ttf', 280)
     d = ImageDraw.Draw(img)
     d.text((15, 15), str(text), font=fnt, fill=(0, 0, 0))
@@ -56,14 +56,13 @@ for options in config_array:
         #code_changed = phrase_changed.replace('00-0001', str(options["code"].zfill(4)))
         phrase_changed = color_changed.replace('strawberry', "")
         code_changed = phrase_changed.replace('00-0001', "")
-        code_changed = code_changed.replace('codebase',str(create_image_tobase(str(options["code"].zfill(4)))))
-        code_changed = code_changed.replace('phrase', str(create_image_tobase(str(options["phrase"]))))
+        code_changed = code_changed.replace('codebase',str(create_image_tobase(str(options["code"].zfill(4)),940)))
+        code_changed = code_changed.replace('phrase', str(create_image_tobase(str(options["phrase"]),4040)))
 
         #if QR code is identified, it adds the code
         if options["qrcode"] != "0":
             qr_code_added = code_changed.replace('fill="#2B2B2B" d=""',
                                                   'fill="#2B2B2B" d="'+str(options["qrcode"])+'" ')
-            print(create_image_tobase(qr_code_added))
             with open("./build_files/Panetone"+str(options["color"])+".svg", "w") as file1:
                  file1.write(qr_code_added)
                  file1.close()

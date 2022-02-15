@@ -6,9 +6,8 @@ import PIL.Image
 import requests
 
 
-
 def create_image_tobase(text):
-    img = Image.new('RGB', (640, 360), color=(255, 255, 255))
+    img = Image.new('RGB', (4040, 360), color=(255, 255, 255))
     fnt = ImageFont.truetype('/Library/Fonts/Helvetica Neue UltraLight.ttf', 280)
     d = ImageDraw.Draw(img)
     d.text((15, 15), str(text), font=fnt, fill=(0, 0, 0))
@@ -19,5 +18,5 @@ def create_image_tobase(text):
     image_encode = str(image_encode).replace("b'","")
     image_encode = str(image_encode).replace("'", "")
     return image_encode
-a = create_image_tobase("0079")
+a = create_image_tobase("ACSDSdfsd")
 print(a)
