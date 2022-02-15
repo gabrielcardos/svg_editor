@@ -7,9 +7,9 @@ Image.MAX_IMAGE_PIXELS = 692136579
 
 def create_image_tobase(text,size):
     img = Image.new('RGB', (size, 360), color=(255, 255, 255))
-    fnt = ImageFont.truetype('/Library/Fonts/Nimbus-Sans-D-OT-Light_32752.ttf', 280)
+    fnt = ImageFont.truetype('/Library/Fonts/Helvetica Neue UltraLight.ttf', 280)
     d = ImageDraw.Draw(img)
-    d.text((15, 15), str(text), font=fnt, fill=(0, 0, 0))
+    d.text((15, 15), str(text), font=fnt, fill=(0, 0, 0), stroke_width=3)
     img.save('pil_text_font.png')
     image = open('pil_text_font.png', 'rb')
     image_read = image.read()

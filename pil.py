@@ -10,7 +10,7 @@ def create_image_tobase(text):
     img = Image.new('RGB', (4040, 360), color=(255, 255, 255))
     fnt = ImageFont.truetype('/Library/Fonts/Helvetica Neue UltraLight.ttf', 280)
     d = ImageDraw.Draw(img)
-    d.text((15, 15), str(text), font=fnt, fill=(0, 0, 0))
+    d.text((15, 15), str(text), font=fnt, fill=(0, 0, 0), stroke_width=3)
     img.save('pil_text_font.png')
     image = open('pil_text_font.png', 'rb')
     image_read = image.read()
@@ -18,5 +18,5 @@ def create_image_tobase(text):
     image_encode = str(image_encode).replace("b'","")
     image_encode = str(image_encode).replace("'", "")
     return image_encode
-a = create_image_tobase("ACSDSdfsd")
+a = create_image_tobase("0034")
 print(a)
